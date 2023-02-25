@@ -1,0 +1,56 @@
+.extra {
+  margin-bottom: 48px;
+  &-list {
+    display: flex;
+  }
+  &-item {
+    &:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+  &-image {
+    margin-bottom: 24px;
+  }
+  &-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &-title {
+    cursor: pointer;
+    font-family: "Trebuchet MS";
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 130%;
+    border-bottom: 1px solid #00000030;
+    margin-bottom: 10px;
+    transition: all 250ms linear;
+    &:hover {
+      color: #cb0000;
+      border-bottom: 1px solid #cb0000;
+    }
+  }
+  &-cost {
+    position: relative;
+    font-family: "Trebuchet MS";
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 130%;
+    text-align: right;
+    &__was::after {
+      content: "$90";
+      position: absolute;
+      right: 0;
+      bottom: -20px;
+      font-size: 20px;
+      line-height: 23px;
+      color: #777777;
+      text-decoration: line-through;
+      text-decoration-color: red;
+    }
+  }
+  &-text {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}

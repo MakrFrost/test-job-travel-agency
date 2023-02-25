@@ -1,0 +1,45 @@
+.header {
+  color: #fff;
+  background: #008baa;
+  height: 104px;
+  padding: 30px 0;
+  &-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &-logo {
+    display: flex;
+  }
+  &-icon {
+  }
+  &-title {
+    font-size: 16px;
+    line-height: 18px;
+    margin-left: 12px;
+  }
+  &-contact {
+    display: flex;
+    align-items: center;
+  }
+  &-number {
+    font-size: 30px;
+    line-height: 34px;
+  }
+  &-text {
+    font-size: 16px;
+    line-height: 18px;
+    margin-left: 8px;
+  }
+  &-socials {
+    display: flex;
+  }
+  &-links:not(:last-child) {
+    margin-right: 12px;
+  }
+  &-icons {
+    width: 32px;
+    height: 32px;
+    fill: #fff;
+  }
+}

@@ -1,0 +1,36 @@
+.footer {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 0 0;
+  &-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &-text {
+    font-size: 12px;
+    line-height: 17px;
+    & a {
+      color: #0059ac;
+      border-bottom: 1px solid rgba(0, 89, 172, 0.25);
+    }
+  }
+  &-link {
+    display: block;
+    width: 32px;
+    height: 32px;
+    &:not(:last-child) {
+      margin-right: 16px;
+    }
+  }
+  &-socials {
+    display: flex;
+  }
+  &-icon {
+    width: 32px;
+    height: 32px;
+  }
+  &-telegram {
+    fill: #229ed9;
+  }
+}

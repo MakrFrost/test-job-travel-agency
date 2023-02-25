@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="uk-ua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Agency</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-flex">
+        <div class="header-logo">
+          <svg class="header-icon" width="179" height="44">
+            <use href="./images/symbol-defs.svg#suntour"></use>
+          </svg>
+          <p class="header-title">
+            Мережа турагенств<br />
+            «Сонце в колі»
+          </p>
+        </div>
+        <div class="header-contact">
+          <a class="header-number" href="tel:0441234567">044 123-45-67</a>
+          <p class="header-text">зворотний дзвінок</p>
+        </div>
+        <div class="header-socials">
+          <a
+            class="header-links"
+            href="https://uk-ua.facebook.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg class="header-icons">
+              <use href="./images/symbol-defs.svg#facebook"></use></svg
+          ></a>
+          <a
+            class="header-links"
+            href="https://web.telegram.org/k/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg class="header-icons">
+              <use href="./images/symbol-defs.svg#telegram"></use></svg
+          ></a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-title">
+            <img class="hero-image" src="./images/hero.png" alt="hero image" />
+            <div class="hero-block">
+              <p class="hero-text">
+                Тур<br />
+                у Созополь,<br />
+                Болгарія<br />
+              </p>
+              <span class="hero-code">код туру</span>
+              <span class="hero-number">3094119</span>
+            </div>
+          </div>
+
+          <div class="hero-descript">
+            <div class="hero-wrap">
+              <div class="hero-naming">
+                <h2 class="hero-naming__title">Aquamarine hotel</h2>
+                <ul class="hero-naming__list">
+                  <li class="hero-naming__item">
+                    <svg class="hero-naming__icon">
+                      <use href="./images/symbol-defs.svg#star-gold"></use>
+                    </svg>
+                  </li>
+                  <li class="hero-naming__item">
+                    <svg class="hero-naming__icon">
+                      <use href="./images/symbol-defs.svg#star-gold"></use>
+                    </svg>
+                  </li>
+                  <li class="hero-naming__item">
+                    <svg class="hero-naming__icon">
+                      <use href="./images/symbol-defs.svg#star-gold"></use>
+                    </svg>
+                  </li>
+                  <li class="hero-naming__item">
+                    <svg class="hero-naming__icon">
+                      <use href="./images/symbol-defs.svg#star"></use>
+                    </svg>
+                  </li>
+                  <li class="hero-naming__item">
+                    <svg class="hero-naming__icon">
+                      <use href="./images/symbol-defs.svg#star"></use>
+                    </svg>
+                  </li>
+                </ul>
+                <p class="hero-naming__cost">$256</p>
+              </div>
+              <div class="hero-rating">
+                <h2 class="hero-rating__title">
+                  Оцінка готелю <br />
+                  <span class="hero-rating__review">45 відгуків</span>
+                </h2>
+                <p class="hero-rating__text">8,4</p>
+                <ul class="hero-rating__list">
+                  <li class="hero-rating__item">
+                    <p class="hero-rating__descr">номер</p>
+                    <span class="hero-rating__numbers">8,9</span>
+                  </li>
+                  <li class="hero-rating__item">
+                    <p class="hero-rating__descr">харчування</p>
+                    <span class="hero-rating__numbers">8,1</span>
+                  </li>
+                  <li class="hero-rating__item">
+                    <p class="hero-rating__descr">сервіс</p>
+                    <span class="hero-rating__numbers">7,9</span>
+                  </li>
+                  <li class="hero-rating__item">
+                    <p class="hero-rating__descr">інфраструктура</p>
+                    <span class="hero-rating__numbers">8,9</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="hero-days">
+              <span class="hero-days__number">320</span>
+              <p class="hero-days__text">
+                сонячних <br />
+                днів на рік
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="extra">
+        <div class="container">
+          <ul class="extra-list">
+            <li class="extra-item">
+              <img
+                src="./images/extra.png"
+                alt="additionally"
+                class="extra-image"
+              />
+              <div class="extra-wrap">
+                <h3 class="extra-title">Шовковий шлях</h3>
+                <p class="extra-cost">$158</p>
+              </div>
+              <p class="extra-text">Екстремальний маршрут</p>
+            </li>
+            <li class="extra-item">
+              <img
+                src="./images/extra2.png"
+                alt="additionally"
+                class="extra-image"
+              />
+              <div class="extra-wrap">
+                <h3 class="extra-title">Роупджампінг</h3>
+                <p class="extra-cost extra-cost__was extra-cost__line">$57</p>
+                <!-- <p class="extra-cost__was">$90</p> -->
+              </div>
+              <p class="extra-text">Не дай Боже не любиш</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="promo">
+        <div class="container promo-flex">
+          <div class="promo-around">
+            <h3 class="promo-discount">
+              $75 <br />
+              ЗНИЖКА
+            </h3>
+            <div class="promo-wrap">
+              <p class="promo-text">промокод</p>
+              <p class="promo-descr">
+                Знижка $75 готівкою при проживанні від 10 ночей
+              </p>
+              <p class="promo-peoples">29 користувачів використали промокод</p>
+            </div>
+            <button class="promo-button">Отримати знижку</button>
+          </div>
+          <p class="promo-more">
+            Дивіться подробиці
+            <svg class="promo-icon">
+              <use href="./images/symbol-defs.svg#arrow"></use>
+            </svg>
+          </p>
+        </div>
+      </section>
+
+      <section class="info">
+        <div class="container info-flex">
+          <div class="info-texts">
+            <h2 class="info-title">
+              36,6 градусів за Цельсієм і пізна-<br />
+              вальна фізика
+            </h2>
+            <p class="info-text">
+              <span class="info-text__bold"
+                >Ніхто не замислювався чому температура людського тіла 36,6 С?
+                Чому не інша? Чому не дорівнює денній температурі навколишнього
+                простору, наприклад? Але чому так сталося? Перша причина лежить
+                від нас на часовій осі в минулому на відстані в кілька мільярдів
+                років. Саме тоді з'явилося життя.
+              </span>
+              <br />
+              Грубо кажучи, первинні реплікатори обгородилися захисною оболонкою
+              від решти океану - створивши клітини. Клітини це замкнуті водні
+              резервуари, в яких вся життєдіяльність проходить у водному
+              середовищі. І всі сухопутні організми концептуально це машини
+              виживання реплікаторів, мобільне (у випадку з тваринами),
+              сприятливе водне середовище для репродукції, оточене захисною
+              оболонкою від зовнішнього світу.
+            </p>
+            <h3 class="info-second__title">Шукаємо відповідь</h3>
+            <p class="info-second__text">
+              Що цікаво, всі теплокровні функціонують у межах тієї самої області
+              температур, що й людина. Наприклад температура у коней 37,5-38,5;
+              у корів 37,5-39,5; курей 40,5-42,5; свиней 39,0-40,0; кішок
+              38,0-39,5; мавп 38,1; голубів 41,0-44,0. Відповідь лежить у царині
+              ні, не біології. А в галузі фізики води. Річ у тім, що
+              теплоємність води нелінійно залежить від температури. Теплоємність
+              - це кількість енергії, яку необхідно витратити для того, щоб
+              нагріти 1 кг речовини на 1 градус. При збільшенні температури вона
+              ніби пікірує, як штурмовик, і підноситься вгору після проходження
+              нижньої точки в 36,8 градусів Цельсія. В організмі людини вода
+              становить близько 65-70%, її теплоємність величезна.
+            </p>
+            <p class="info-fact">
+              Річ у тім, що теплоємність води нелінійно залежить від
+              температури. Теплоємність — це кількість енергії, яку необхідно
+              витратити для того, щоб нагріти 1 кг речовини на 1 градус. При
+              збільшенні температури вона ніби пікірує, як штурмовик, і
+              підноситься вгору після проходження нижньої точки в 36,8 градусів
+              Цельсія. В організмі людини вода становить близько 65-70%, її
+              теплоємність величезна.
+            </p>
+            <p class="info-second__text">
+              90% енергії, одержуваної з їжею, теплокровні тому витрачають лише
+              на підтримання постійної температури внутрішнього середовища. На
+              нагрівання води. Тому ця ямка, мінімум, в якому потрібно було
+              витрачати мінімальну кількість енергії на підтримання свого стану,
+              як атрактор, стягував на себе протягом еволюції всі "моделі"
+              теплокровних. Фенотипи, з робочою температурою інших діапазонів,
+              були занадто "ненажерливими" і відсіювалися відбором.
+            </p>
+            <h4 class="info-third__title">Хлорофіл та краса</h4>
+            <p class="info-third__text">
+              Могло статися так, що небо було б отруйно-жовте, а не блакитне.
+              Трава так само червона. Подобався б нам такий пейзаж? Чому
+              червоний, яскраво-жовтий, створюють відчуття неспокою і не
+              підходять для ідилічних райських картин ландшафтів як блакитний і
+              зелений? Справа не в них, а в нас. Ми продукт еволюції, продукт
+              середовища, в якому ми розвивалися. Що і було показано на прикладі
+              температури тіла.
+            </p>
+
+            <div class="info-table">
+              <table>
+                <tr class="info-table__head">
+                  <td>Ім'я</td>
+                  <td>Сума</td>
+                  <td>Виплата</td>
+                  <td>Вид оплати</td>
+                </tr>
+                <tr class="info-table__body info-table__border">
+                  <td>Сергій</td>
+                  <td>2459 $</td>
+                  <td>375 $</td>
+                  <td>Card Payment</td>
+                </tr>
+                <tr class="info-table__body info-table__border">
+                  <td>Микола</td>
+                  <td>1569 $</td>
+                  <td>582 $</td>
+                  <td>Card Payment</td>
+                </tr>
+                <tr class="info-table__body">
+                  <td>Наталія</td>
+                  <td>1759 $</td>
+                  <td>965 $</td>
+                  <td>Card Payment</td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="info-list">
+              <h4 class="info-list__title">
+                Як знайти ці консервативні ознаки? Найчастіше розглядають 5
+                джерел інформації про них:
+              </h4>
+              <ul class="info-list__items">
+                <li class="info-list__item">ембріологічні дослідження;</li>
+                <li class="info-list__item">тератологічні дані;</li>
+                <li class="info-list__item">порівняльно-морфологічні дані;</li>
+                <li class="info-list__item">
+                  аналіз вроджених поведінкових програм (етологічні дані);
+                </li>
+                <li class="info-list__item">
+                  вивчення взаємозв'язку з іншими видами.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="info-block">
+            <span class="info-block__number">0,71</span>
+            <span class="info-block__title">WHR здорової людини </span>
+            <span class="info-block__descr">
+              Один із вельми надійних показників здоров'я, фертильності, якраз
+              «waistto hip ratio».</span
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrap">
+          <p class="footer-text">
+            2023 Тестове завдання на вакансію верстальника в компанію
+            <a href="http://aweb.ua" target="_blank" rel="noopener noreferrer"
+              >Aweb</a
+            >
+          </p>
+          <div class="footer-socials">
+            <a
+              class="footer-link"
+              href="https://uk-ua.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="footer-icon">
+                <use
+                  href="./images/symbol-defs.svg#facebook-colored"
+                ></use></svg
+            ></a>
+            <a
+              class="footer-link"
+              href="https://web.telegram.org/k/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="footer-icon footer-telegram">
+                <use
+                  href="./images/symbol-defs.svg#telegram-colored"
+                ></use></svg
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
