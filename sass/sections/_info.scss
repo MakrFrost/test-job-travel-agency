@@ -118,9 +118,7 @@
     }
   }
   &-block {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: none;
   }
   &-block__number {
     font-family: "Trebuchet MS";
@@ -137,5 +135,15 @@
     font-size: 20px;
     line-height: 25px;
     color: #777777;
+  }
+}
+
+@media screen and (min-width: 1040px) {
+  .info {
+    &-block {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
   }
 }

@@ -1,8 +1,8 @@
 .header {
   color: #fff;
   background: #008baa;
-  height: 104px;
-  padding: 30px 0;
+  height: 72px;
+  padding: 15px 0;
   &-flex {
     display: flex;
     align-items: center;
@@ -12,27 +12,29 @@
     display: flex;
   }
   &-icon {
+    width: 138px;
+    height: 34px;
   }
   &-title {
-    font-size: 16px;
-    line-height: 18px;
-    margin-left: 12px;
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 6px;
   }
   &-contact {
     display: flex;
     align-items: center;
   }
   &-number {
-    font-size: 30px;
-    line-height: 34px;
+    font-size: 12px;
+    line-height: 12px;
   }
   &-text {
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 12px;
+    line-height: 12px;
     margin-left: 8px;
   }
   &-socials {
-    display: flex;
+    display: none;
   }
   &-links:not(:last-child) {
     margin-right: 12px;
@@ -41,5 +43,33 @@
     width: 32px;
     height: 32px;
     fill: #fff;
+  }
+}
+
+@media screen and (min-width: 1040px) {
+  .header {
+    height: 104px;
+    padding: 30px 0;
+    &-icon {
+      width: 179px;
+      height: 44px;
+    }
+    &-title {
+      font-size: 16px;
+      line-height: 18px;
+      margin-left: 12px;
+    }
+    &-number {
+      font-size: 30px;
+      line-height: 34px;
+    }
+    &-text {
+      font-size: 16px;
+      line-height: 18px;
+      margin-left: 8px;
+    }
+    &-socials {
+      display: block;
+    }
   }
 }

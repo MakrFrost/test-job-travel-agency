@@ -94,8 +94,8 @@ iframe {
 .header {
   color: #fff;
   background: #008baa;
-  height: 104px;
-  padding: 30px 0;
+  height: 72px;
+  padding: 15px 0;
 }
 .header-flex {
   display: -webkit-box;
@@ -113,10 +113,14 @@ iframe {
   display: -ms-flexbox;
   display: flex;
 }
+.header-icon {
+  width: 138px;
+  height: 34px;
+}
 .header-title {
-  font-size: 16px;
-  line-height: 18px;
-  margin-left: 12px;
+  font-size: 12px;
+  line-height: 14px;
+  margin-left: 6px;
 }
 .header-contact {
   display: -webkit-box;
@@ -127,18 +131,16 @@ iframe {
           align-items: center;
 }
 .header-number {
-  font-size: 30px;
-  line-height: 34px;
+  font-size: 12px;
+  line-height: 12px;
 }
 .header-text {
-  font-size: 16px;
-  line-height: 18px;
+  font-size: 12px;
+  line-height: 12px;
   margin-left: 8px;
 }
 .header-socials {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
 }
 .header-links:not(:last-child) {
   margin-right: 12px;
@@ -149,9 +151,36 @@ iframe {
   fill: #fff;
 }
 
+@media screen and (min-width: 1040px) {
+  .header {
+    height: 104px;
+    padding: 30px 0;
+  }
+  .header-icon {
+    width: 179px;
+    height: 44px;
+  }
+  .header-title {
+    font-size: 16px;
+    line-height: 18px;
+    margin-left: 12px;
+  }
+  .header-number {
+    font-size: 30px;
+    line-height: 34px;
+  }
+  .header-text {
+    font-size: 16px;
+    line-height: 18px;
+    margin-left: 8px;
+  }
+  .header-socials {
+    display: block;
+  }
+}
 .hero {
-  margin-top: 24px;
-  margin-bottom: 48px;
+  margin-top: 12px;
+  margin-bottom: 24px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -168,18 +197,18 @@ iframe {
 }
 .hero-block {
   position: absolute;
-  bottom: 32px;
-  left: 32px;
+  bottom: 16px;
+  left: 16px;
   font-family: "Trebuchet MS";
   font-style: normal;
   font-weight: 700;
-  font-size: 25px;
-  line-height: 29px;
+  font-size: 15px;
+  line-height: 18px;
   text-align: center;
   color: #000000;
-  padding: 45px 40px;
-  width: 250px;
-  height: 250px;
+  padding: 25px 20px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   background: rgba(255, 242, 0, 0.7);
   border: 1px solid #000000;
@@ -190,19 +219,19 @@ iframe {
   margin-bottom: 16px;
 }
 .hero-code {
-  font-size: 14px;
+  font-size: 10px;
   line-height: 16px;
   text-align: center;
   text-transform: uppercase;
 }
 .hero-number {
-  font-size: 24px;
+  font-size: 14px;
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
   background-color: #000000;
-  padding: 2px 5px;
+  padding: 2px 2px;
 }
 .hero-descript {
   margin-top: 24px;
@@ -215,7 +244,7 @@ iframe {
   position: relative;
 }
 .hero-naming {
-  margin-bottom: 28px;
+  margin-bottom: 14px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -224,32 +253,32 @@ iframe {
           align-items: center;
 }
 .hero-naming__title {
-  margin-right: 20px;
+  margin-right: 10px;
   font-family: "Trebuchet MS";
   font-style: normal;
   font-weight: 700;
-  font-size: 35px;
-  line-height: 130%;
+  font-size: 18px;
+  line-height: 90%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1882352941);
 }
 .hero-naming__list {
-  margin-right: 20px;
+  margin-right: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 .hero-naming__item:not(:last-child) {
-  margin-right: 3px;
+  margin-right: 2px;
 }
 .hero-naming__icon {
-  width: 28px;
-  height: 26px;
+  width: 14px;
+  height: 13px;
 }
 .hero-naming__cost {
   font-family: "Trebuchet MS";
   font-weight: 700;
-  font-size: 35px;
-  line-height: 130%;
+  font-size: 16px;
+  line-height: 80%;
   text-align: center;
   color: #000000;
 }
@@ -262,23 +291,23 @@ iframe {
           align-items: center;
 }
 .hero-rating__title {
-  padding: 10px 0;
-  font-size: 14px;
+  padding: 5px 0;
+  font-size: 10px;
   line-height: 16px;
   font-weight: 400;
-  margin-right: 32px;
+  margin-right: 18px;
 }
 .hero-rating__review {
   font-weight: 700;
 }
 .hero-rating__text {
-  margin-right: 32px;
-  padding: 12px 8px;
+  margin-right: 16px;
+  padding: 8px 6px;
   font-family: "Trebuchet MS";
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 14px;
+  line-height: 22px;
   text-align: center;
   color: #ffffff;
   background: #008baa;
@@ -289,10 +318,10 @@ iframe {
   display: flex;
 }
 .hero-rating__item:not(:last-child) {
-  margin-right: 16px;
+  margin-right: 8px;
 }
 .hero-rating__descr {
-  font-size: 12px;
+  font-size: 8px;
   line-height: 14px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -305,92 +334,262 @@ iframe {
   color: #000000;
 }
 .hero-days {
-  position: absolute;
-  top: -60px;
-  right: 112px;
-  margin-left: auto;
-}
-.hero-days__number {
-  font-family: "Trebuchet MS";
-  font-size: 88px;
-  line-height: 102px;
-  letter-spacing: -0.05em;
-  text-transform: uppercase;
-  color: #777777;
-}
-.hero-days__text {
-  margin-top: -10px;
-  font-size: 30px;
-  line-height: 31px;
-  color: #000000;
+  display: none;
 }
 
-.extra {
-  margin-bottom: 48px;
+@media screen and (min-width: 1040px) {
+  .hero {
+    margin-top: 24px;
+    margin-bottom: 48px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .hero-title {
+    position: relative;
+  }
+  .hero-block {
+    position: absolute;
+    bottom: 32px;
+    left: 32px;
+    font-family: "Trebuchet MS";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    padding: 45px 40px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: rgba(255, 242, 0, 0.7);
+    border: 1px solid #000000;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .hero-text {
+    margin-bottom: 16px;
+  }
+  .hero-code {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .hero-number {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 2px 5px;
+  }
+  .hero-descript {
+    margin-top: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: relative;
+  }
+  .hero-naming {
+    margin-bottom: 28px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .hero-naming__title {
+    margin-right: 20px;
+    font-family: "Trebuchet MS";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 130%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1882352941);
+  }
+  .hero-naming__list {
+    margin-right: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .hero-naming__item:not(:last-child) {
+    margin-right: 3px;
+  }
+  .hero-naming__icon {
+    width: 28px;
+    height: 26px;
+  }
+  .hero-naming__cost {
+    font-family: "Trebuchet MS";
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+  }
+  .hero-rating {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .hero-rating__title {
+    padding: 10px 0;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    margin-right: 32px;
+  }
+  .hero-rating__review {
+    font-weight: 700;
+  }
+  .hero-rating__text {
+    margin-right: 32px;
+    padding: 12px 8px;
+    font-family: "Trebuchet MS";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #ffffff;
+    background: #008baa;
+  }
+  .hero-rating__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .hero-rating__item:not(:last-child) {
+    margin-right: 16px;
+  }
+  .hero-rating__descr {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  .hero-rating__numbers {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+  }
+  .hero-days {
+    display: block;
+    position: absolute;
+    top: -60px;
+    right: 112px;
+    margin-left: auto;
+  }
+  .hero-days__number {
+    font-family: "Trebuchet MS";
+    font-size: 88px;
+    line-height: 102px;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    color: #777777;
+  }
+  .hero-days__text {
+    margin-top: -10px;
+    font-size: 30px;
+    line-height: 31px;
+    color: #000000;
+  }
 }
-.extra-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.extra {
+  margin-bottom: 28px;
 }
 .extra-item:not(:last-child) {
-  margin-right: 40px;
-}
-.extra-image {
-  margin-bottom: 24px;
-}
-.extra-wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-.extra-title {
-  cursor: pointer;
-  font-family: "Trebuchet MS";
-  font-weight: 700;
-  font-size: 35px;
-  line-height: 130%;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1882352941);
-  margin-bottom: 10px;
-  -webkit-transition: all 250ms linear;
-  transition: all 250ms linear;
-}
-.extra-title:hover {
-  color: #cb0000;
-  border-bottom: 1px solid #cb0000;
-}
-.extra-cost {
-  position: relative;
-  font-family: "Trebuchet MS";
-  font-weight: 700;
-  font-size: 35px;
-  line-height: 130%;
-  text-align: right;
-}
-.extra-cost__was::after {
-  content: "$90";
-  position: absolute;
-  right: 0;
-  bottom: -20px;
-  font-size: 20px;
-  line-height: 23px;
-  color: #777777;
-  text-decoration: line-through;
-  text-decoration-color: red;
-}
-.extra-text {
-  font-size: 14px;
-  line-height: 19px;
+  margin-bottom: 20px;
 }
 
+@media screen and (min-width: 1040px) {
+  .extra {
+    margin-bottom: 48px;
+  }
+  .extra-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .extra-item:not(:last-child) {
+    margin-right: 40px;
+    margin-bottom: 0;
+  }
+  .extra-image {
+    margin-bottom: 24px;
+  }
+  .extra-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .extra-title {
+    cursor: pointer;
+    font-family: "Trebuchet MS";
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 130%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1882352941);
+    margin-bottom: 10px;
+    -webkit-transition: all 250ms linear;
+    transition: all 250ms linear;
+  }
+  .extra-title:hover {
+    color: #cb0000;
+    border-bottom: 1px solid #cb0000;
+  }
+  .extra-cost {
+    position: relative;
+    font-family: "Trebuchet MS";
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 130%;
+    text-align: right;
+  }
+  .extra-cost__was::after {
+    content: "$90";
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+    font-size: 20px;
+    line-height: 23px;
+    color: #777777;
+    text-decoration: line-through;
+    text-decoration-color: red;
+  }
+  .extra-text {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
 .promo {
-  margin-bottom: 48px;
+  margin-bottom: 24px;
 }
 .promo-flex {
   border-radius: 6px;
@@ -415,39 +614,21 @@ iframe {
   text-align: center;
   margin-right: 32px;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 22px;
   line-height: 120%;
   text-align: center;
   color: #008baa;
 }
 .promo-wrap {
-  margin-right: 32px;
-}
-.promo-text {
-  margin-bottom: 4px;
-  font-size: 14px;
-  line-height: 120%;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: #008baa;
-}
-.promo-descr {
-  margin-bottom: 8px;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 130%;
-}
-.promo-peoples {
-  font-size: 14px;
-  line-height: 19px;
+  display: none;
 }
 .promo-button {
   font-weight: 700;
   font-size: 16px;
-  line-height: 21px;
+  line-height: 16px;
   text-align: center;
   color: #ffffff;
-  width: 224px;
+  width: 100px;
   background: -webkit-gradient(linear, left top, left bottom, from(#00aaaa), to(#008baa));
   background: linear-gradient(180deg, #00aaaa 0%, #008baa 100%);
   border-radius: 24px;
@@ -495,6 +676,114 @@ iframe {
   height: 16px;
 }
 
+@media screen and (min-width: 1040px) {
+  .promo {
+    margin-bottom: 24px;
+  }
+  .promo-flex {
+    border-radius: 6px;
+  }
+  .promo-around {
+    padding: 36px 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: 1px solid #e0e0e0;
+    border-bottom: none;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+  .promo-discount {
+    text-align: center;
+    margin-right: 32px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 120%;
+    text-align: center;
+    color: #008baa;
+  }
+  .promo-wrap {
+    display: block;
+    margin-right: 32px;
+  }
+  .promo-text {
+    margin-bottom: 4px;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #008baa;
+  }
+  .promo-descr {
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 130%;
+  }
+  .promo-peoples {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .promo-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff;
+    width: 224px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#00aaaa), to(#008baa));
+    background: linear-gradient(180deg, #00aaaa 0%, #008baa 100%);
+    border-radius: 24px;
+    padding: 13px 42px;
+    gap: 8px;
+    width: 224px;
+    height: 47px;
+    -webkit-transition: all 250ms linear;
+    transition: all 250ms linear;
+  }
+  .promo-button:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#008a8a), to(#02677e));
+    background: linear-gradient(180deg, #008a8a 0%, #02677e 100%);
+  }
+  .promo-button:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(#005e5e), to(#004555));
+    background: linear-gradient(180deg, #005e5e 0%, #004555 100%);
+    color: rgba(255, 255, 255, 0.8549019608);
+  }
+  .promo-more {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: #f7f7f7;
+    padding: 16px;
+    font-size: 13px;
+    line-height: 120%;
+    text-align: center;
+    color: #777777;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .promo-icon {
+    margin-left: 8px;
+    width: 16px;
+    height: 16px;
+  }
+}
 .info-flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -616,16 +905,7 @@ iframe {
   margin-bottom: 8px;
 }
 .info-block {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  display: none;
 }
 .info-block__number {
   font-family: "Trebuchet MS";
@@ -644,6 +924,20 @@ iframe {
   color: #777777;
 }
 
+@media screen and (min-width: 1040px) {
+  .info-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 .footer {
   margin-top: 16px;
   margin-bottom: 16px;

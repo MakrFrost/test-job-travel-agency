@@ -1,6 +1,6 @@
 .hero {
-  margin-top: 24px;
-  margin-bottom: 48px;
+  margin-top: 12px;
+  margin-bottom: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,19 +10,19 @@
   }
   &-block {
     position: absolute;
-    bottom: 32px;
-    left: 32px;
+    bottom: 16px;
+    left: 16px;
 
     font-family: "Trebuchet MS";
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
-    line-height: 29px;
+    font-size: 15px;
+    line-height: 18px;
     text-align: center;
     color: #000000;
-    padding: 45px 40px;
-    width: 250px;
-    height: 250px;
+    padding: 25px 20px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     background: rgba(255, 242, 0, 0.7);
     border: 1px solid #000000;
@@ -32,19 +32,19 @@
     margin-bottom: 16px;
   }
   &-code {
-    font-size: 14px;
+    font-size: 10px;
     line-height: 16px;
     text-align: center;
     text-transform: uppercase;
   }
   &-number {
-    font-size: 24px;
+    font-size: 14px;
     line-height: 28px;
     text-align: center;
     text-transform: uppercase;
     color: #ffffff;
     background-color: #000000;
-    padding: 2px 5px;
+    padding: 2px 2px;
   }
   &-descript {
     margin-top: 24px;
@@ -52,39 +52,37 @@
     justify-content: space-between;
     position: relative;
   }
-  &-wrap {
-  }
   &-naming {
-    margin-bottom: 28px;
+    margin-bottom: 14px;
     display: flex;
     align-items: center;
     &__title {
-      margin-right: 20px;
+      margin-right: 10px;
       font-family: "Trebuchet MS";
       font-style: normal;
       font-weight: 700;
-      font-size: 35px;
-      line-height: 130%;
+      font-size: 18px;
+      line-height: 90%;
       border-bottom: 1px solid #00000030;
     }
     &__list {
-      margin-right: 20px;
+      margin-right: 10px;
       display: flex;
     }
     &__item {
       &:not(:last-child) {
-        margin-right: 3px;
+        margin-right: 2px;
       }
     }
     &__icon {
-      width: 28px;
-      height: 26px;
+      width: 14px;
+      height: 13px;
     }
     &__cost {
       font-family: "Trebuchet MS";
       font-weight: 700;
-      font-size: 35px;
-      line-height: 130%;
+      font-size: 16px;
+      line-height: 80%;
       text-align: center;
       color: #000000;
     }
@@ -93,23 +91,23 @@
     display: flex;
     align-items: center;
     &__title {
-      padding: 10px 0;
-      font-size: 14px;
+      padding: 5px 0;
+      font-size: 10px;
       line-height: 16px;
       font-weight: 400;
-      margin-right: 32px;
+      margin-right: 18px;
     }
     &__review {
       font-weight: 700;
     }
     &__text {
-      margin-right: 32px;
-      padding: 12px 8px;
+      margin-right: 16px;
+      padding: 8px 6px;
       font-family: "Trebuchet MS";
       font-style: normal;
       font-weight: 700;
-      font-size: 24px;
-      line-height: 28px;
+      font-size: 14px;
+      line-height: 22px;
       text-align: center;
       color: #ffffff;
       background: #008baa;
@@ -119,11 +117,11 @@
     }
     &__item {
       &:not(:last-child) {
-        margin-right: 16px;
+        margin-right: 8px;
       }
     }
     &__descr {
-      font-size: 12px;
+      font-size: 8px;
       line-height: 14px;
       letter-spacing: 0.05em;
       text-transform: uppercase;
@@ -137,23 +135,169 @@
     }
   }
   &-days {
-    position: absolute;
-    top: -60px;
-    right: 112px;
-    margin-left: auto;
-    &__number {
-      font-family: "Trebuchet MS";
-      font-size: 88px;
-      line-height: 102px;
-      letter-spacing: -0.05em;
-      text-transform: uppercase;
-      color: #777777;
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1040px) {
+  .hero {
+    margin-top: 24px;
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &-title {
+      position: relative;
     }
-    &__text {
-      margin-top: -10px;
-      font-size: 30px;
-      line-height: 31px;
+    &-block {
+      position: absolute;
+      bottom: 32px;
+      left: 32px;
+
+      font-family: "Trebuchet MS";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 29px;
+      text-align: center;
       color: #000000;
+      padding: 45px 40px;
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      background: rgba(255, 242, 0, 0.7);
+      border: 1px solid #000000;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    &-text {
+      margin-bottom: 16px;
+    }
+    &-code {
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    &-number {
+      font-size: 24px;
+      line-height: 28px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+      background-color: #000000;
+      padding: 2px 5px;
+    }
+    &-descript {
+      margin-top: 24px;
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+    }
+    &-wrap {
+    }
+    &-naming {
+      margin-bottom: 28px;
+      display: flex;
+      align-items: center;
+      &__title {
+        margin-right: 20px;
+        font-family: "Trebuchet MS";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 130%;
+        border-bottom: 1px solid #00000030;
+      }
+      &__list {
+        margin-right: 20px;
+        display: flex;
+      }
+      &__item {
+        &:not(:last-child) {
+          margin-right: 3px;
+        }
+      }
+      &__icon {
+        width: 28px;
+        height: 26px;
+      }
+      &__cost {
+        font-family: "Trebuchet MS";
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 130%;
+        text-align: center;
+        color: #000000;
+      }
+    }
+    &-rating {
+      display: flex;
+      align-items: center;
+      &__title {
+        padding: 10px 0;
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 400;
+        margin-right: 32px;
+      }
+      &__review {
+        font-weight: 700;
+      }
+      &__text {
+        margin-right: 32px;
+        padding: 12px 8px;
+        font-family: "Trebuchet MS";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: #ffffff;
+        background: #008baa;
+      }
+      &__list {
+        display: flex;
+      }
+      &__item {
+        &:not(:last-child) {
+          margin-right: 16px;
+        }
+      }
+      &__descr {
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #000000;
+      }
+      &__numbers {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        color: #000000;
+      }
+    }
+    &-days {
+      display: block;
+      position: absolute;
+      top: -60px;
+      right: 112px;
+      margin-left: auto;
+      &__number {
+        font-family: "Trebuchet MS";
+        font-size: 88px;
+        line-height: 102px;
+        letter-spacing: -0.05em;
+        text-transform: uppercase;
+        color: #777777;
+      }
+      &__text {
+        margin-top: -10px;
+        font-size: 30px;
+        line-height: 31px;
+        color: #000000;
+      }
     }
   }
 }
